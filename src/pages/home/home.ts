@@ -11,4 +11,7 @@ export class HomePage {
 
   }
 
+  title:string = 'Tour of Heroes';
+  heroes:string[] = ['Windstorm', 'Bombasto', 'Magneta', 'Tornado'];
+  myHero:string = this.heroes[3];
 }
